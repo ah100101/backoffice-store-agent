@@ -11,6 +11,8 @@
     "deploy": "eve deploy",
     "dev": "eve dev",
     "eval": "eve eval",
+    "evals": "eve eval --strict --exclude-tag judge",
+    "evals:fixtures": "cd tests/fixtures/eval-agent && eve eval --strict",
     "start": "eve start",
     "typecheck": "tsc"
   },

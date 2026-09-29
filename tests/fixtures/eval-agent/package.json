@@ -1,0 +1,9 @@
+{
+  "name": "eve-eval-fixture-agent",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "eve": "0.66.0",
+    "zod": "4.4.3"
+  }
+}
